@@ -89,6 +89,8 @@ router.put('/:id', (req, res) => {
 
 // async await POST route for new applications 
 router.post('/', (req, res) => {
+    console.log('POSTING NEW APPLICATION');
+    
     if (req.body.captcha === undefined || req.body.captcha === '' || req.body.captcha === null) {
         return res.sendStatus(500);
     }
