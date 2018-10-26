@@ -110,6 +110,7 @@ router.post('/', (req, res) => {
         body = response.data;
         // if not successful
         if (body.success !== undefined && !body.success) {
+            // TODO: Return a 500 or other error. 
             return res.json({ "success": false, "msg": "Failed captcha verification" });
         }
         //if recaptcha was successful

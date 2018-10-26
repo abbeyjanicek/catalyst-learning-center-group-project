@@ -129,7 +129,7 @@ For future implementation:
 ![Heroku Prerequisite](public/images/herokuprereq.png)
 ### 1. Create a new Heroku project
 ![Create New Heroku Project](public/images/herokusetup.png)
-### 2. Connect to the Herkoku Postgres database 
+### 2. Connect to the Heroku Postgres database 
 ![PostgreSQL on Heroku](public/images/herokusql.png)
 ### 3. Commit Changes and Push them to Heroku
 ![Push to Heroku](public/images/herokucommit.png)
